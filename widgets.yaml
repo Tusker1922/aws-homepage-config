@@ -1,0 +1,20 @@
+---
+- resources:
+    label: Server Resources
+    cpu: true
+    memory: true
+    disk: /
+- datetime:
+    text_size: xl
+    format:
+      date: long
+      time: short
+- weather:
+    provider: openweathermap
+    key: "{{HOMEPAGE_VAR_OPENWEATHERMAP_API_KEY}}"
+    latitude: 40.7128   # <-- ACTION REQUIRED: REPLACE
+    longitude: -74.0060 # <-- ACTION REQUIRED: REPLACE
+    units: imperial
+- search:
+    provider: duckduckgo
+    target: _blank
