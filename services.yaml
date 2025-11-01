@@ -1,0 +1,52 @@
+---
+- Self-Hosted Apps:
+    - Uptime Kuma:
+        icon: uptimekuma.svg
+        href: https://uptime-aws.themoxie.life
+        description: Monitoring Status
+        container: uptime-kuma-dwkso8s0g8c0ss44gkoo0w0o
+        widget:
+          type: uptimekuma
+          url: https://uptime-aws.themoxie.life
+    - n8n:
+        icon: n8n.svg
+        href: https://n8n-aws.themoxie.life
+        description: Workflow Automation
+        container: n8n-jkook4kk4k80ooc44swg4g8k
+    - Postiz:
+        icon: mdi-application-braces-outline
+        href: https://postiz-aws.themoxie.life
+        description: Postiz Service
+        container: postiz-e44sg08gc4oks0owkckgscoo
+    - Shlink:
+        icon: shlink.svg
+        href: https://shlink-aws.themoxie.life
+        description: Link Shortener
+        container: shlink-j0c880gcw4w0os4wc4occo08
+        widget:
+          type: shlink
+          url: https://shlink-aws.themoxie.life
+          key: "{{HOMEPAGE_VAR_SHLINK_API_KEY}}"
+    - WordPress:
+        icon: wordpress.svg
+        href: https://aws.themoxie.life
+        description: Company Blog
+        container: wordpress-jgg4cc00kss8cok04ss8co44
+    - Seedbox Lite:
+        icon: mdi-download-box
+        href: https://seedbox-aws.themoxie.life
+        description: Torrent Client
+        container: seedbox-backend
+- Server & Infrastructure:
+    - Coolify:
+        icon: coolify.svg
+        href: http://13.61.10.198:8000
+        description: Application & Service Hosting
+    - AWS:
+        icon: aws.svg
+        href: https://console.aws.amazon.com/
+        description: EC2 Management Console
+    - Cloudflare:
+        icon: cloudflare.svg
+        href: https://dash.cloudflare.com/
+        description: DNS & Security
